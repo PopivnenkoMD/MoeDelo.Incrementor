@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05BB4FE5-4536-4C7D-A407-2FAAAF5706CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncrementorLib", "src\IncrementorLib\IncrementorLib.csproj", "{DDCC2202-36B1-49E7-A36D-0256CD0388BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{B69F3E8B-EE0F-42D9-B3E5-6845C13D5854}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incrementor.Demo", "samples\Incrementor.Demo\Incrementor.Demo.csproj", "{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{718A2DF5-097C-4831-80E6-EED89A8DFA4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncrementorLib.Tests", "tests\IncrementorLib.Tests\IncrementorLib.Tests.csproj", "{9C241C5D-D093-4FF0-89C5-5E16A29D5C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85C72E8B-3610-49F7-A01F-F7D2662F72EF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDCC2202-36B1-49E7-A36D-0256CD0388BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCC2202-36B1-49E7-A36D-0256CD0388BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCC2202-36B1-49E7-A36D-0256CD0388BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCC2202-36B1-49E7-A36D-0256CD0388BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C241C5D-D093-4FF0-89C5-5E16A29D5C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C241C5D-D093-4FF0-89C5-5E16A29D5C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C241C5D-D093-4FF0-89C5-5E16A29D5C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C241C5D-D093-4FF0-89C5-5E16A29D5C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDCC2202-36B1-49E7-A36D-0256CD0388BD} = {05BB4FE5-4536-4C7D-A407-2FAAAF5706CB}
+		{A0B03D58-DE36-4B2D-9E63-4EB5B85AEF2E} = {B69F3E8B-EE0F-42D9-B3E5-6845C13D5854}
+		{9C241C5D-D093-4FF0-89C5-5E16A29D5C06} = {718A2DF5-097C-4831-80E6-EED89A8DFA4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22BEC97B-00F9-4220-99B3-CC343BCBC001}
+	EndGlobalSection
+EndGlobal
