@@ -51,7 +51,7 @@ public sealed class Incrementor : IIncrementor
 		lock (_lock)
 		{
 			_maximumValue = maximumValue;
-			if (_currentValue > maximumValue || maximumValue == 0)
+			if (_currentValue >= maximumValue || maximumValue == 0)
 				_currentValue = 0;
 		}
 	}
